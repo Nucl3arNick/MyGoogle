@@ -1,0 +1,158 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+
+#back_style {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.links {
+    display: flex;
+    height: 140px;
+    background-color: #f1f1f1; 
+}
+
+
+.links a{
+    color: #333;
+}
+
+.links ul {
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.links img{
+    width: 100px;
+    height: auto;
+}
+
+.links #logo2{
+    grid-column: 1 / 2;
+}
+
+
+.links #back{
+    grid-column: 2 / 3;
+    justify-self: end;
+}
+
+#adv{
+    color: rgb(185, 0, 0);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0;
+    
+}
+
+.search_bar{
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+    width: 600px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    margin: 15px 0;
+    margin-left: 40px;
+}
+
+table{
+    font-size: 16px;
+    font-family: arial;
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-top: 55px;
+    
+    }
+
+    thead{
+        text-align: left;
+        font-size: large;
+        
+    }
+
+    tbody{
+        color: rgb(95, 95, 95);
+    }
+
+
+
+    .entr{
+        text-align: right ;
+    }
+    .entr input{
+        background-color: #0080ff;
+    cursor: pointer;
+    
+    color: white;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    }
+
+    @media  (max-width: 929px){
+        .search_bar{
+            font-size: 14px;
+            padding-left: 5px;
+            width: 400px;
+            height: 15px;
+            border: 1px solid #ddd;
+            border-radius: 1px;
+            margin: 15px 0;
+            margin-left: 20px;
+        }
+
+        table{
+            font-size: 14.5px;
+            
+            margin-left: 10px;
+            margin-top: 55px;
+            
+            }
+        
+    }
+
+    @media  (max-width: 629px){
+        .search_bar{
+            
+            font-size: 12px;
+            padding-left: 5px;
+            width: 180px;
+            height: 15px;
+            border: 1px solid #ddd;
+            border-radius: 1px;
+            margin: 15px 0;
+            margin-left: 10px;
+        }
+
+        table{
+            font-size: 12px;
+            
+            margin-left: 10px;
+            margin-top: 55px;
+            
+            }
+        
+    }
